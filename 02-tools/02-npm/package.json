@@ -5,7 +5,8 @@
   "main": "01-require-jquery-global.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "gulp -v"
+    "dev": "gulp -v",
+    "start": "node ./03-scripts/script.js"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +18,8 @@
   },
   "devDependencies": {
     "gulp": "^4.0.2"
+  },
+  "config":{
+    "env":"production"
   }
 }

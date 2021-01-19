@@ -24,3 +24,11 @@
 // ^ 锁定主版本号    ~ 锁定主版本号次版本号     啥也不加 当前版本   * ("jquery":"*") 最新版本
 // npm update
 // npm cache clean --force
+
+
+// npm config set registry https://registry.npm.taobao.org
+// nrm ls
+// nrm use npm
+// nrm test
+
+// npx gulp -v
